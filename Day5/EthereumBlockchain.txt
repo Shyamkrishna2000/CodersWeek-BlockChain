@@ -1,0 +1,25 @@
+Hi again, today lets talk a bit about Ethereum.
+What’s an Ethereum ? it’s a platform for blockchain applications. Its  public and decentralized. There are various functionality and features like ether, gas,etc. lets talk about these terms in brevity.
+The idea of ether was to use as a fuel but can also be used like a bitcoin i.e. ethers can be used as for transaction purpose or collect it as if it’s a jewellery. 
+A gas is a collection of bandwidth required, space required and the computational difficulty of the block. Gas is a way of pricing transactions based on computational complexity. Gas prices are normally denoted in gwei (giga wei). Smallest unit is wei. 
+Smart contracts are the lines of codes which dictates  the terms of contract and control the execution of contracts. These contracts are immutable and distributed i.e. once formed, they can’t be changed and there are visible to all the nodes of the network.
+
+
+Now the main thing of the day, the features of Ethereum- some are stated here which are the reason Ethereum has that status in the blockchain industry:
+1.	Decentralized: like the name suggests, Ethereum blockchains are distributed throughout the network i.e. you have the accessibility of viewing status each and everything within the blockchain network and validating/mining the block without the need of a third party.
+2.	Immutable smart contracts: like I have mentioned above immutability makes these smart contracts smart.
+3.	Can be used as Cryptocurrency: remember ether? 
+4.	 Ommer blocks: since we all know one disadvantage of blockchains are the creation of orphaned blocks. To overcome this issue, Ethereum came up with ommer blocks. Ommer blocks concept states that the current block’s parent and the proceedor block’s parents are one and the same. 
+The purpose of ommers is to help reward miners for including these orphaned blocks. The ommers that miners include must be “valid,” meaning within the sixth generation or smaller of the present block. After six children, stale orphaned blocks can no longer be referenced. Ommer blocks receive a smaller reward than a full block.
+5.	Proof of many things: yes , you can have different consensus algorithms for every transaction you follow. Some are : proof of work, proof of space, proof of burn, proof of stack, etc. 
+6.	Ethereum virtual machine (EVM): remember that smart contracts are codes and to compile these codes, Ethereum has its own language called the Ethereum bytecode. For this purpose, an EVM is used for simplicity. The prefered language used currently is called solidity which is majorly similar to javascript and also with other programming languages like python, java, c, etc.
+7.	Decentralized Applications (DApp): A Dapp consists of a backing code that runs on a distributed peer-to-peer network. It is a software designed to work in the Ethereum network without being controlled by a centralized system, as mentioned, and that is the primary difference: it provides direct interaction between the end-users and the decentralized application providers.
+And there may be some more but I hope that I have covered the important once.
+
+
+Now the next part, the difference between blockchain and a bitcoin?
+First of all bitcoin is a cryptocurrency whereas a blockchain is a distributed ledger. Google search distributed ledger and the first thing it will probably say is that it is similar to a database, but rather than being controlled by a central authority. The ledger is dispersed across multiple computers, which can be located all over the world and run by anyone with an Internet connection. Like we have seen in Ethereum, immutable and distributed. An Ethereum blockchain can function as a cryptocurrency too.
+To function a bitcoin, you need a blockchain. Vice-versa is not true. If you still don’t get it let me put this in such a way- if a car is a bitcoin, then all the basic internal components like steering wheel, gear box,etc is the blockchain.
+By now you would have understood the main difference between a blockchain and a bitcoin.
+I have written a lot of information today about blockchain. I hope that by now you have finally surpassed atleast the beginner level of the understanding of the topic. Hope you like the material. Bye.
+

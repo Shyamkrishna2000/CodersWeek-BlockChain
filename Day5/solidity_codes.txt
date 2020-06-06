@@ -1,0 +1,76 @@
+pragma solidity ^0.4.24;
+
+contract MyContract{
+    string value;
+    
+    constructor() public{
+        value= "myValue";
+    }
+     
+    function get() public view returns(string){
+        return value;
+        
+    }
+    function set(string _value) public{
+        value= _value;
+    }
+}
+
+
+
+
+pragma solidity 0.5.1;
+
+contract MyContract{
+    string public stringValue = "myString";
+    bool public myBool=true;
+    int public myInt = -1;
+    uint public myUint=1;
+    uint8 public myUint8  =8;
+    uint256 public myUint256  =99999;
+
+}
+
+// using enum
+
+pragma solidity 0.5.1;
+
+contract MyContract{
+   enum State { Waiting, Ready, Active }
+    State public state;
+    
+    constructor() public{
+        state= State.Waiting;
+    }
+    
+    function activate() public{
+        state= State.Active;
+        
+    }
+    
+    function isActive() public view returns(bool){
+        return state == State.Active;
+    }
+}
+
+// structures and use of mapping in smart contract
+
+
+pragma solidity 0.5.1;
+
+contract MyContract{
+    
+    uint256 public peopleCount=0;
+    mapping(uint => Person) public people;
+    
+    struct Person{
+        uint _id;
+        string  _firstName;
+        string _lastName;
+    }
+    
+    function addPerson(string memory _firstName, string memory _lastName) public{
+        people[peopleCount]=Person(peopleCount, _firstName, _lastName);
+        peopleCount += 1;
+    }
+}    
